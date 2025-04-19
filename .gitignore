@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# Python cache
+*.pytest_cache/
+.cache/
+.coverage
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Grafana and Prometheus volumes (optional, if stored locally)
+grafana/data/
+prometheus/data/
+
+# Node modules (if any frontend component added)
+node_modules/
+
+# Ignore test coverage files
+htmlcov/
+coverage.xml
